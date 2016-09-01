@@ -72,7 +72,7 @@ class CBAIE(InfoExtractor):
         containsCopyright = False
         formats = []
 
-        ns = {'cba': 'https://cba.fro.at',
+        ns = {'cba': 'https://cba.fro.at/help#feeds',
               'content': 'http://purl.org/rss/1.0/modules/content/'}
 
         api_key_str = ""
