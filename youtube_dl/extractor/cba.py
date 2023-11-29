@@ -18,7 +18,7 @@ from ..utils import (
 class CBAIE(InfoExtractor):
     IE_NAME = 'cba'
     IE_DESC = 'cultural broadcasting archive'
-    _VALID_URL = r'https?://(?:www\.)?cba\.fro\.at/(?P<id>[0-9]+)'
+    _VALID_URL = r'https?://(?:www\.)?cba\.(?:fro\.at|media)/(?P<id>[0-9]+)'
     _TEST = {
         'url': 'https://cba.media/320619',
         'md5': 'e40379688fcc5e95d6d8a482bb665b02',
